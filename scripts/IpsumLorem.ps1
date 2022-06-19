@@ -1,4 +1,4 @@
-Params(
+Param(
   [string]$greeter,
   [string]$trigger
 )
