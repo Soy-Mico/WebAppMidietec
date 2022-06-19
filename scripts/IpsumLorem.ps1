@@ -1,2 +1,6 @@
-Write-Host "Hello World"
-Write-Host "Hello World"
+Params(
+  [string]$greeter,
+  [string]$trigger
+)
+Write-Host "Hello World from $greeter"
+Write-Host "Trigger: $trigger"
